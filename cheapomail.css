@@ -1,0 +1,31 @@
+h1 {text-align: center;
+    margin-left: 875px;
+	font-family:'Cookie',cursive;
+    font-size:250%;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+body {background-image: url(http://cdn.crownmediadev.com/6d/c3/140f713445c58a1fca4466288f10/bigstock-decorated-christmas-tree-close-76005554-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+#controls {position: relative;
+           left:925px;
+           width: 400px;
+           height:400px;
+	       padding: 0px;
+	       text-align: center;
+           border:solid;
+           background-image: url(https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX5219965.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+}
+
+label {color: white;
+       font-size: 150%;
+}
+
+strong {color: red;
+}

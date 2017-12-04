@@ -1,0 +1,32 @@
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    border: solid black;
+}
+
+body{
+    background-image: url(http://longwallpapers.com/Desktop-Wallpaper/sky-background-For-Desktop-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#controls{
+    background-image: url(https://belsebuub.com/wp-content/uploads/2011/04/sun-over-mountains-good-1080533_40231058_cropsquare.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 4px double black;
+    width: 500px;
+    text-align: center;
+    position: relative;
+    left: 420px;
+}
+
+strong {color: red;
+}

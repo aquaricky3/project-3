@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="homescreen.css">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="homescreen.js" type="text/javascript"></script>
+    </head>
+<body>
+		<h1>CHEAPOMAIL</h1>
+         <br/>
+         <br/>
+        
+		<div id="controls">
+			<form action="homescreen.php" method="post">
+ 			<button id="compose" name = "compose" >Compose</button>
+			<br/><br/>
+			<button id="logout" name = "logout">Logout</button>
+			<br/><br/>
+			<button id="view" name = "view">View Messages</button>
+			</form>
+			<br/><br/><br/><br/>
+        </div>
+        <div id = letter>
+            <h3>Compose your message here.</h3>
+            <br/><br/>
+            <form action="homescreen.php" method="post">
+        	<label for="receipient">Receipient:</label>
+			<input id="receipient" type="text" name="receipient" />
+			<br/><br/><br/><br/>
+			<p id = 'rreq'></p>
+
+			<label for="subject">Subject:</label>
+			<input id="subject" type="text" name="subject" />
+			<br/><br/><br/><br/>
+			<p id = 'sreq'></p>
+
+			<label for="body">Body:</label>
+			<input id="body" type="text" name="body" />
+			<br/><br/><br/><br/>
+			<p id = 'breq'></p>
+			
+			<button id="send" name = "send" >Send</button>
+			<br/><br/>
+            </form>
+		</div>
+
+        <p id="home">
+            
+        </p>
+	</body>
+</html>

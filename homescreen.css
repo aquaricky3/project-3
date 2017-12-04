@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid black;
+}
+
+body{
+    background-image: url(http://longwallpapers.com/Desktop-Wallpaper/sky-background-For-Desktop-Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#controls{
+    text-align: left;
+}
+
+#letter{
+    padding-top: 20px;
+    border: 4px double black;
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    left: 440px;
+    top: 100px;
+    display: none;
+    background-color: white;
+}
+
+strong {
+    color: red;
+}
+
+#unread{
+    color:black;
+}
+
+#body{
+    width: 440px;
+    height: 250px;
+}
